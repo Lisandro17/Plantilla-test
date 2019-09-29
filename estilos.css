@@ -332,6 +332,14 @@ background: #582EA1;
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+    .card img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 150px;
+        border: 2px solid #fff;
+    }
     
 }
 
