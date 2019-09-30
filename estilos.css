@@ -343,13 +343,25 @@ background: #582EA1;
     
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:560px){
 .contenedor-nuestrosProductos img{
     width:80%;
 }
+
 }
 
 
+@media screen and (max-width:500px){
+.cards .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.contenedor-foto-opiniones{
+    margin-bottom: 15px;
+}
+}
 @media screen and (max-width:414px){
     .contenedor-textos-header h2{
     font-size: 25px;
