@@ -118,6 +118,11 @@ header {
         display: none;
 
     }
+
+    #chk:checked~ .menu {
+        z-index: 100;
+
+    }
 }
 
 .contenedor-textos-header {
@@ -423,6 +428,9 @@ footer p {
 
     .titulo {
         font-size: 30px;
+    }
+    .contenedor-elemento-footer-individual{
+        margin-bottom: 30px;
     }
 }
 
