@@ -68,7 +68,7 @@ header {
 .boton-abrir-menu,
 .boton-cerrar-menu {
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
     display: none;
 }
 
@@ -102,6 +102,7 @@ header {
     .menu a {
         display: block;
         transition: all ease .5s;
+        font-size: 25px;
     }
 
     .boton-cerrar-menu {
