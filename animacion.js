@@ -29,7 +29,7 @@ sr.reveal('.cards',{
     distance: '300px'
 })
 sr.reveal('.contenedor-nuestros-servicios',{
-    duration: 3000,
+    duration: 4000,
     origin: 'top',
     distance: '300px'
 })
