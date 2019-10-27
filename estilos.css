@@ -68,7 +68,7 @@ header {
 .boton-abrir-menu,
 .boton-cerrar-menu {
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     display: none;
 }
 
@@ -458,5 +458,9 @@ right: 1%;
 @media screen and (max-width:450px) {
     .contenedor-textos-header h2 {
         font-size: 30px;
+    }
+
+    .arriba{
+        top: 80%;
     }
 }
