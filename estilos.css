@@ -466,3 +466,12 @@ right: 1%;
         top: 80%;
     }
 }
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #D204FC;
+    border-radius: 10px;
+}
