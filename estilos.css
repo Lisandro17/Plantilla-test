@@ -68,14 +68,14 @@ header {
 .boton-abrir-menu,
 .boton-cerrar-menu {
     color: #fff;
-    font-size: 35px;
+    font-size: 40px;
     display: none;
 }
 
 .boton-abrir-menu {
     float: right;
     line-height: 100px;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width:768px) {
@@ -107,8 +107,8 @@ header {
 
     .boton-cerrar-menu {
         position: absolute;
-        top: 10px;
-        right: 50px;
+        right: 10px;
+        right: 170px;
     }
 
     #chk:checked~.menu {
