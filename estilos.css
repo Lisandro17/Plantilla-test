@@ -108,8 +108,10 @@ header {
     .boton-cerrar-menu {
         position: absolute;
         right: 10px;
-        right: 170px;
+        left: 5%;
+       
     }
+    
 
     #chk:checked~.menu {
         right: 0;
