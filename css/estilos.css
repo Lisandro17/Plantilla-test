@@ -86,8 +86,9 @@ header {
     .boton-abrir-menu,
     .boton-cerrar-menu {
         display: block;
-        cursor: pointer;
+      
     }
+   
 
     .menu {
         position: fixed;
@@ -328,7 +329,7 @@ border-radius: 30px;
 cursor: pointer;
 margin-top: 20px;
 position: fixed;
-top: 90%;
+top: 85%;
 right: 1%;
 
 }
@@ -403,6 +404,8 @@ right: 1%;
     .arriba{
         margin-top: 60px;
     }
+
+   
 
 
 
