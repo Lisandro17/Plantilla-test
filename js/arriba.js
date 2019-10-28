@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
-            $('.arriba').slideDown();
+            $('.arriba').slideDown(100);
         } else {
             $('.arriba').slideUp();
         }

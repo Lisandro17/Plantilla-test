@@ -97,7 +97,7 @@ header {
     .menu {
         position: fixed;
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         background: #333;
         display: block;
         text-align: center;
@@ -108,7 +108,7 @@ header {
     }
 
     .menu a {
-       padding: 5px 0px;
+        padding: 10px 0px;
         display: block;
         transition: all ease .5s;
         font-size: 20px;
@@ -119,7 +119,7 @@ header {
     .boton-cerrar-menu {
         position: absolute;
         right: 10px;
-        left: 5%;
+        left: 2%;
        
     }
     
@@ -475,6 +475,9 @@ right: 1%;
         width: 80%;
     }
 
+    .menu{
+        height: 10vh;
+    }
 
 }
 
@@ -493,6 +496,8 @@ right: 1%;
 }
 
 @media screen and (max-width:414px) {
+
+
     .contenedor-textos-header h2 {
         font-size: 25px;
         margin-bottom: 20px;
@@ -522,6 +527,12 @@ right: 1%;
     .contenedor-elemento-footer-individual{
         margin-bottom: 30px;
     }
+    .menu{
+        height: 70vh;
+    }
+
+  
+   
 }
 
 @media screen and (max-width:450px) {
@@ -532,7 +543,24 @@ right: 1%;
     .arriba{
         top: 80%;
     }
+
+    .menu{
+        height: 40vh;
+    }
 }
+
+@media screen and (max-width:375px){
+    .menu{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:320px){
+    .menu{
+        height: 60vh;
+    }
+}
+
 
 
 /*SCROLL MODIFICADO*/
