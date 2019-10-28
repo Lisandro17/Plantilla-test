@@ -320,7 +320,9 @@ font-size: 18px;
 }
 
 .contenedor-nuestros-servicios-individual {
+    transform: rotate(350deg);
     padding: 40px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.20);
 }
 
 .contenedor-nuestros-servicios-individual h4 {
@@ -335,6 +337,26 @@ font-size: 18px;
 
 .contenedor-nuestros-servicios img {
     width: 100%;
+}
+
+/*MAPA*/
+
+.direccion{
+    background: #F8F7F7;
+    padding: 60px 0px;
+}
+
+
+.direccion h2{
+    color: #582EA1;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+}
+.contenedor-mapa{
+ margin-left: 10%; 
 }
 
 /*FOOTER*/
