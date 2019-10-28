@@ -11,18 +11,19 @@
 </head>
 
 <body>
-    <header>
+    <header id="inicio">
         <h2 class="logo"> <a href="index.html">Lisandro</a></h2>
         <input type="checkbox" id="chk">
         <label for="chk" class="boton-abrir-menu">
             <i class="fas fa-bars"></i>
         </label>
         <ul class="menu">
-            <a href="#">Inicio</a>
-            <a href="#">Acerda de</a>
-            <a href="#">Servicios</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#opiniones">Opiniones</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
             <label for="chk" class="boton-cerrar-menu">
                 <i class="fas fa-times"></i>
             </label>
@@ -39,7 +40,7 @@
     </header>
 </body>
 
-<section class="contenedor nuestrosProductos">
+<section class="contenedor nuestrosProductos" id="productos">
     <h2 class="titulo">Nuestros Productos</h2>
     <div class="contenedor-nuestrosProductos">
         <img class="mover" src="img/ilustracion2.svg" alt="#" width="500px">
@@ -61,7 +62,7 @@
     </div>
 </section>
 
-<section class="portafolio">
+<section class="portafolio" id="portafolio">
     <h2 class="titulo">Portafolio</h2>
     <div class="contenedor">
         <div class="contenedor-galeria-portafolio">
@@ -118,7 +119,7 @@
     </div>
 </section>
 
-<section class="opiniones">
+<section class="opiniones" id="opiniones">
     <div class="contenedor">
         <h2 class="titulo">Que dicen nuestros Clientes</h2>
         <div class="cards">
@@ -144,12 +145,12 @@
         </div>
     </div>
 </section>
-<section class="nuestrosServicios">
+<section class="nuestrosServicios" id="servicios">
     <div class="contenedor">
         <h2 class="titulo">Nuestros Servicios</h2>
         <div class="contenedor-nuestros-servicios">
             <div class="contenedor-nuestros-servicios-individual">
-                <img src="img/ilustracion1.svg" alt="#">
+                <img src="img/ilustracion1.svg" alt="#" class="rotar">
                 <div class="contenedor-textos-servicios">
                     <h4>Primero</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur!</p>
@@ -157,14 +158,14 @@
 
             </div>
             <div class="contenedor-nuestros-servicios-individual">
-                <img src="img/ilustracion3.svg" alt="#">
+                <img src="img/ilustracion3.svg" alt="#" class="rotar">
                 <div class="contenedor-textos-servicios">
                     <h4>Segundo</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur!</p>
                 </div>
             </div>
             <div class="contenedor-nuestros-servicios-individual">
-                <img src="img/ilustracion4.svg" alt="#">
+                <img src="img/ilustracion4.svg" alt="#" class="rotar">
                 <div class="contenedor-textos-servicios">
                     <h4>Tercero</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, consequatur!</p>
@@ -172,7 +173,7 @@
             </div>
         </div>
 </section>
-<footer>
+<footer id="contacto">
     <div class="contenedor">
         <div class="contenedor-footer">
             <div class="contenedor-elemento-footer-individual">
