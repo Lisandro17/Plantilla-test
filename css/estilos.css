@@ -279,7 +279,7 @@ font-size: 18px;
 
 .card {
     display: flex;
-    background: #582EA1;
+    background:linear-gradient(90deg, #A218F1, rgba(211, 4, 252, 0.842) ); 
     width: 45%;
     padding: 40px;
     border-radius: 5px;
@@ -326,6 +326,7 @@ font-size: 18px;
     padding: 40px;
     box-shadow: 0 0 20px 0 rgba(0,0,0,.20);
 }
+
 
 .contenedor-nuestros-servicios-individual h4 {
     font-size: 30px;
@@ -423,6 +424,25 @@ right: 1%;
 
 /*APDATABLE A DISPOSITIVOS MOVILES*/
 
+@media screen and (max-width:1024px){
+    .arriba{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background:linear-gradient(90deg , #DC4DF9, #D204FC);
+        color:#fff;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 20px;
+        position: fixed;
+        top: 93%;
+        right: 1%;
+        
+        }
+}
+
 @media screen and (max-width:768px) {
     header {
         background-size: cover;
@@ -487,6 +507,23 @@ right: 1%;
     .arriba{
         margin-top: 60px;
     }
+
+    .arriba{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background:linear-gradient(90deg , #DC4DF9, #D204FC);
+        color:#fff;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 20px;
+        position: fixed;
+        top: 88%;
+        right: 1%;
+        
+        }
 
    
 
@@ -571,6 +608,23 @@ right: 1%;
     .menu{
         height: 40vh;
     }
+
+    .arriba{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background:linear-gradient(90deg , #DC4DF9, #D204FC);
+        color:#fff;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 20px;
+        position: fixed;
+        top: 88%;
+        right: 1%;
+        
+        }
 }
 
 @media screen and (max-width:375px){
@@ -583,8 +637,30 @@ right: 1%;
     .menu{
         height: 60vh;
     }
+
+  
 }
 
+/*MIN HEIGHT*/
+@media screen and (min-width:1024px){
+
+    .arriba{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background:linear-gradient(90deg , #DC4DF9, #D204FC);
+        color:#fff;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 20px;
+        position: fixed;
+        top: 90%;
+        right: 1%;
+        
+        }
+}
 
 
 /*SCROLL MODIFICADO*/
@@ -607,3 +683,4 @@ right: 1%;
     
     
 }
+
