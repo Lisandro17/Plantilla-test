@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="css/estilos.css">
     <meta name="author" content="Lisandro Diomedes">
     <meta name="keywords" content="Plantilla, plantilla premium, diseños web modernos, lisandro diomedes.">
+    <link rel="stylesheet" href="css/lightbox.min.css">
 </head>
 
+<!--HEADER-->
 <body>
     <header id="inicio">
         <div id="particles-js"> 
@@ -43,12 +45,19 @@
             </svg></div>
         </div>
     </header>
+<!--HEADER-->
 
+
+
+
+<!--PRODUCTOS-->
 
     <section class="contenedor nuestrosProductos" id="productos">
         <h2 class="titulo">Productos premium para ti</h2>
-        <div class="contenedor-nuestrosProductos">
-            <img class="mover" src="img/productos.svg" alt="#" width="500px">
+        <div class="contenedor-nuestrosProductos img-d" >
+            <div class="contenedor-img-nuestros-productos" id="ls"> 
+            <img class="mover" src="img/productos.svg" alt="#" width="500px" >
+        </div>
             <div class="contenedor-textos-nuestrosProductos">
                 <h3> <span class="numero">1</span> Los productos mas premium del mercado</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi vel delectus amet suscipit, voluptates
@@ -69,55 +78,65 @@
         </div>
     </section>
 
+    <!--PRODUCTOS-->
+
+
+
+
+
+
+
+    <!--PORTAFOLIO-->
+
     <section class="portafolio" id="portafolio">
-        <h2 class="titulo">Nuestros trabajos</h2>
+        <h2 class="titulo">Portafolio empresarial</h2>
         <div class="contenedor">
             <div class="contenedor-galeria-portafolio">
                 <div class="contenedor-galeria-individual">
-                    <img src="img/1.jpg" alt="#">
+                  <a href="img/1.jpg" data-lightbox="mygallery">   <img src="img/1.jpg" alt="#"></a>
                     <div class="overlay">
                         <h4>Diseño web moderno</h4>
 
                     </div>
                 </div>
                 <div class="contenedor-galeria-individual">
-                   <img src="img/2.jpg" alt="">
+                        <a href="img/2.jpg" data-lightbox="mygallery">  <img src="img/2.jpg" alt="#"></a>
                     <div class="overlay">
                         <h4>Diseño web moderno</h4>
                     </div>
                 </div>
                 <div class="contenedor-galeria-individual">
-                        <img src="img/3.jpg" alt="">
+                        <a href="img/3.jpg" data-lightbox="mygallery">  <img src="img/3.jpg" alt="#"></a>
                     <div class="overlay">
                         <h4>Diseño web moderno</h4>
                     </div>
                 </div>
                 <div class="contenedor-galeria-individual">
-                        <img src="img/4.jpg" alt="">
+                        <a href="img/4.jpg" data-lightbox="mygallery">  <img src="img/4.jpg" alt="#"></a>
                     <div class="overlay">
                         <h4>Diseño web moderno</h4>
                     </div>
                 </div>
                 <div class="contenedor-galeria-individual">
-                        <img src="img/5.jpg" alt="">
+                        <a href="img/5.jpg" data-lightbox="mygallery">  <img src="img/5.jpg" alt="#"></a>
                     <div class="overlay">
                         <h4>Diseño web moderno</h4>
                     </div>
                 </div>
                 <div class="contenedor-galeria-individual">
-                        <img src="img/6.jpg" alt="">
+                        <a href="img/6.jpg" data-lightbox="mygallery">  <img src="img/6.jpg" alt="#"></a>
                     <div class="overlay">
                         <h4>Diseño web moderno</h4>
                     </div>
                 </div>
                 <div class="contenedor-galeria-individual">
-                        <img src="img/7.jpg" alt="">
+                        <a href="img/7.jpg" data-lightbox="mygallery">  <img src="img/7.jpg" alt="#"></a>
                     <div class="overlay">
                         <h4>Diseño web moderno</h4>
                     </div>
                 </div>
                 <div class="contenedor-galeria-individual">
-                        <img src="img/8.jpg" alt="">
+                        <a href="img/8.jpg" data-lightbox="mygallery">  <img src="img/8.jpg" alt="#"></a>
                     <div class="overlay">
                         <h4>Diseño web moderno</h4>
                     </div>
@@ -125,7 +144,12 @@
             </div>
         </div>
     </section>
+    <!--PORTAFOLIO-->
 
+
+
+
+    <!--OPINIONES-->
 
     <section class="opiniones" id="opiniones">
         <div class="contenedor">
@@ -153,6 +177,12 @@
             </div>
 
     </section>
+
+    <!--OPINIONES-->
+
+
+
+    <!--SERVICIOS-->
     <section class="nuestrosServicios" id="servicios">
         <div class="contenedor">
             <h2 class="titulo"> Servicios</h2>
@@ -182,6 +212,16 @@
             </div>
     </section>
 
+    <!--SERVICIOS-->
+
+
+
+    
+
+
+
+    <!--Direccion-->
+
     <section class="direccion">
         <h2>Dirección</h2>
         <div class="contenedor">
@@ -192,8 +232,11 @@
             </div>
         </div>
     </section>
+ <!--Direccion-->
 
 
+
+ <!--FOOTER-->
     <footer id="contacto">
         <div class="contenedor">
             <div class="contenedor-footer">
@@ -219,6 +262,8 @@
             <span class="arriba"><i class="fas fa-plane-departure"></i></span>
         </div>
     </footer>
+
+ <!--FOOTER-->
 
 
     <!-- WhatsHelp.io widget -->
@@ -258,6 +303,7 @@
     <script src="js/arriba.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/lightbox.min.js"></script>
    
 
 </body>

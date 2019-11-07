@@ -150,6 +150,10 @@ header {
 
 }
 
+.contenedor-textos-header  h2{
+    margin-bottom: 50px;
+}
+
 .contenedor-textos-header h2 {
     margin-top: 150px;
     font-size: 50px
@@ -175,8 +179,21 @@ header {
 .contenedor-nuestrosProductos {
     display: flex;
     justify-content: space-around;
+    
+    
 }
 
+.contenedor-img-nuestros-productos{
+    margin-right: 50px;
+    transition: 1s ease;
+}
+
+#ls:hover{
+    transition: 1s ease;
+    transform: translateY(-15px);
+  
+
+}
 .contenedor-textos-nuestrosProductos h3 {
     margin-bottom: 20px;
 }
@@ -190,13 +207,15 @@ header {
 
 .numero {
     display: inline-block;
-    background: #582EA1;
+    background:linear-gradient(90deg, #DE18A8, #FF0303) ;
     width: 24px;
     height: 24px;
     border-radius: 20px;
     text-align: center;
     color: #fff;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    cursor: pointer;
+    margin: 0px 5px;
 
 }
 
@@ -233,6 +252,7 @@ header {
     height: 100%;
     object-fit: cover;
     display: block;
+     cursor: pointer;
 
 
 }
@@ -245,11 +265,12 @@ header {
     width: 100%;
     height: 0%;
     transition: all 1s ease;
+    cursor: pointer;
   
 }
 
 .contenedor-galeria-individual:hover .overlay{
-    height: 100%;
+    height: 30%;
   
 }
 
@@ -323,9 +344,11 @@ font-size: 18px;
 }
 
 .contenedor-nuestros-servicios-individual {
-    transform: rotate(350deg);
-    padding: 40px;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,.20);
+    margin: 20px;
+    padding: 50px;
+    -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.55);
+    box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.55);
 }
 
 
@@ -491,6 +514,7 @@ right: 1%;
         margin-bottom: 20px;
     }
 
+   
     .contenedor-nuestros-servicios {
         display: flex;
         flex-direction: column;
@@ -526,7 +550,9 @@ right: 1%;
         
         }
 
-   
+   .contenedor-img-nuestros-productos{
+       text-align: center;
+   }
 
 
 
@@ -554,6 +580,11 @@ right: 1%;
 
     .contenedor-foto-opiniones {
         margin-bottom: 15px;
+    }
+
+    .contenedor-textos-header h2{
+        font-size: 30px;
+        margin-bottom: 30px;
     }
 }
 
@@ -622,7 +653,7 @@ right: 1%;
         cursor: pointer;
         margin-top: 20px;
         position: fixed;
-        top: 88%;
+        top: 86%;
         right: 1%;
         
         }
@@ -678,7 +709,7 @@ right: 1%;
     transition: 2s;
 }
 .rotar:hover{
-    transform:rotate(350deg);
+    transform:rotate(330deg);
     box-shadow: 0 0 20px 0 rgba(0,0,0,.20);
     cursor: pointer;
     
