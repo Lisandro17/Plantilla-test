@@ -675,6 +675,23 @@ right: 1%;
         height: 60vh;
     }
 
+    .arriba{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background:linear-gradient(90deg , #DC4DF9, #D204FC);
+        color:#fff;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-top: 20px;
+        position: fixed;
+        top: 88%;
+        right: 1%;
+        
+        }
+
   
 }
 
